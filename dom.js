@@ -9,14 +9,19 @@
 //header.style.borderBotton = "solid 3px #000";
 
 
-var items = document.getElementsByClassName('list-group-item');
-console.log(items);
+//var items = document.getElementsByClassName('list-group-item');
+//console.log(items);
 
-console.log(items[1]);
-console.log(items[2],);
+//console.log(items[1]);
+//console.log(items[2],);
 //items[1].textContent = 'hello2'
-for(var i =0;i<items.length;i++){
+//for(var i =0;i<items.length;i++){
 
-    items[i].style.fontWeight = 'bold'
-}
-items[3].style.backgroundColor = 'green'
+   // items[i].style.fontWeight = 'bold'
+
+//items[3].style.backgroundColor = 'green'
+
+//QUERy SELECTOR//
+
+var header = document.querySelector('#main-header')
+header.style.borderBottom = 'soild 40px blue ';
